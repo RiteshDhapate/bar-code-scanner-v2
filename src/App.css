@@ -12,3 +12,24 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+
+#reader{
+  width: 600px;
+  height: 500px;
+  position: relative;
+}
+
+#qr-shaded-region{
+  width: 100% !important;
+}
+
+#qr-canvas{
+  width: 90% !important;
+}
+
+@media (max-width: 480px) {
+  #reader {
+    width: 100%;
+    height: 0px;
+  }
+}
