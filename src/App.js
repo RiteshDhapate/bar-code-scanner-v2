@@ -35,6 +35,9 @@ function App() {
     <div className="App">
       <div id="reader"></div>
       <br />
+      <br />
+      <br />
+      <br />
       <h1>{ result}</h1>
     </div>
   );
